@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
 urlpatterns = [
-    path('',views.fun1),
+    path('',views.index),
+    path('insert',views.insert),
+    path('display',views.display),
 ]
